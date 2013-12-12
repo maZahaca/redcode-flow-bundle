@@ -1,0 +1,24 @@
+{
+    "name": "redcode/flow-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 flow manager, process entities by flows (status)",
+    "license": "MIT",
+    "keywords": ["flow", "status", "symfony", "transit", "bundle"],
+    "homepage": "https://github.com/maZahaca/redcode-flow",
+    "authors": [
+        {
+            "name": "Andrew Reddikh",
+            "email": "andrew@reddikh.com",
+            "homepage": "http://reddikh.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.4",
+        "redcode/flow": "0.1.x-dev"
+    },
+    "autoload": {
+        "psr-0": { "RedCode\\FlowBundle": "" }
+    },
+    "target-dir": "RedCode/FlowBundle"
+}
