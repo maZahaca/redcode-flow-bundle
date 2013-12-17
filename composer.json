@@ -14,7 +14,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.4.4",
+        "php": ">=5.4.0",
+        "symfony/framework-bundle" : "2.3.*",
         "redcode/flow": "0.1.x-dev"
     },
     "autoload": {
